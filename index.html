@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* background-color: hsla(0, 100%, 70%, 0.3); */
+        background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+        text-align: center;
+    }
+    h1{
+        color: #599bb3;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+    }
+
+</style>
+<body>
+    <div>
+        <h1 class="header">Stop Watch by Humaira Rana</h1>
+    </div>
+    <div>
+        <h1 id="min" class="timer">0</h1>
+        <h1 id="sec"class="timer">0</h1>
+        <h1 id="msec"class="timer">0</h1>
+    </div>
+
+    <div>
+        <button onclick="start()" class="myButton">Start</button>
+        <button onclick="stop()"class="myButton">Stop</button>
+        <button onclick="reset()"class="myButton">Reset</button>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
